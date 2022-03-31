@@ -1,3 +1,235 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      ELDER RING GUIA DE ARMAS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [scrollEvents]="true">
+<ion-img src="assets/icon/elder851_315.jpg"></ion-img>
+<ion-searchbar color="Primary">Buscar Arma</ion-searchbar>
+
+<ion-row>
+  <ion-col>
+    <ion-card>
+      <ion-item>
+        <ion-img src="assets/icon/arma1.png"></ion-img>
+        <ion-card-title> MISERICORDE </ion-card-title>
+        <ion-button color="tertiary" fill="outline" slot="end" id="trigger-button">Info</ion-button>
+          <ion-modal trigger="trigger-button">
+            <ng-template>
+              <ion-content>
+                <ion-title>MISERICORDE</ion-title>
+                <ion-img src="assets/icon/arma1.png"></ion-img>
+                <ion-label>
+                  Esta arma es el complemento perfecto para 
+                  cualquier clase de destreza. La Misericorde 
+                  brilla con luz propia como arma secundaria, 
+                  cuando realizas elusiones y te toca apuñalar, 
+                  porque su daño crítico es una barrabasada. 
+                  Aparte, presenta una habilidad que hace las 
+                  veces de esquiva mejorada y te ayudará a 
+                  esquivar más y mejor.
+                </ion-label>
+                <ion-row>
+                  <ion-col>Fue: 7</ion-col>
+                  <ion-col>Fue: E</ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Des: 12</ion-col>
+                  <ion-col>Des: D</ion-col>
+                </ion-row>
+              </ion-content>
+            </ng-template>
+          </ion-modal>
+                  
+      </ion-item>
+      <ion-card-content>
+        Encuéntrala en el Castillo de Velo Tormentoso, 
+        tras una barrera de niebla, en una sala custodiada 
+        por dos soldados exiliados con hachas. 
+        Para acceder, necesitas gastar una 
+        llave de espada pétrea.
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  <ion-col>
+    <ion-card>
+      <ion-item>
+        <ion-img src="assets/icon/arma4.png"></ion-img>
+        <ion-card-title> ALABARDA DORADA </ion-card-title>
+        <ion-button color="tertiary" fill="outline" slot="end" id="trigger-button2">Info</ion-button>
+          <ion-modal trigger="trigger-button2">
+            <ng-template>
+              <ion-content>
+                <ion-title>ALABARDA DORADA</ion-title>
+                <ion-img src="assets/icon/arma4.png"></ion-img>
+                <ion-label>
+                  En cuanto veas los requisitos, podrás esperar que 
+                  la Alabarda Dorada sea la mejor arma para personajes 
+                  de rollo paladín, con fuerza y fe como sus atributos 
+                  estrella. Además, presenta una habilidad que os bonifica 
+                  a ti y tus aliados/as con salud y daño extra.
+                </ion-label>
+                <ion-row>
+                  <ion-col>Fue: 30</ion-col>
+                  <ion-col>Fue: D</ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Des: 14</ion-col>
+                  <ion-col>Des: E</ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Fe: 12</ion-col>
+                  <ion-col>Fe: D</ion-col>
+                </ion-row>
+              </ion-content>
+            </ng-template>
+          </ion-modal>
+
+      </ion-item>
+      <ion-card-content>
+        Acaba con el Centinela agreste al sur 
+        de la Iglesia de Elleh. Por si te 
+        pudiera el ansia, espérate antes de 
+        ir a por él, que cuando llegues a las 
+        Tierras Intermedias no serás más 
+        que un mojoncito sin fuerza.
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+
+  <ion-col>
+    <ion-card>
+      <ion-item>
+        <ion-img src="assets/icon/arma3.png"></ion-img>
+        <ion-card-title> ESPADÓN DE LA LUNA NEGRA </ion-card-title>
+        <ion-button color="tertiary" fill="outline" slot="end" id="trigger-button3">Info</ion-button>
+          <ion-modal trigger="trigger-button3">
+            <ng-template>
+              <ion-content>
+                <ion-title>ESPADÓN DE LA LUNA NEGRA</ion-title>
+                <ion-img src="assets/icon/arma3.png"></ion-img>
+                <ion-label>
+                  Poco se puede decir de este enorme clásico de 
+                  los juegos de From Software. Es una espada excelentemente 
+                  equilibrada: fuerte, pero ágil, y con escalado de inteligencia. 
+                  Además, cuenta con un ataque especial que lanza ondas de 
+                  luz a los enemigos que, sencillamente, son geniales.
+                </ion-label>
+                <ion-row>
+                  <ion-col>Fue: 16</ion-col>
+                  <ion-col>Fue: D</ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Des: 11</ion-col>
+                  <ion-col>Des: D</ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Int: 38</ion-col>
+                  <ion-col>Int: C</ion-col>
+                </ion-row>
+              </ion-content>
+            </ng-template>
+          </ion-modal>
+
+      </ion-item>
+      <ion-card-content>
+        Acaba con el Trol Cavarrocas en la Galería de Altus.
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+
+  <ion-col>
+    <ion-card>
+      <ion-item>
+        <ion-img src="assets/icon/arma2.png"></ion-img>
+        <ion-card-title> GRAN GARROTE </ion-card-title>
+        <ion-button color="tertiary" fill="outline" slot="end" id="trigger-button4">Info</ion-button>
+          <ion-modal trigger="trigger-button4">
+            <ng-template>
+              <ion-content>
+                <ion-title>GRAN GARROTE</ion-title>
+                <ion-img src="assets/icon/arma2.png"></ion-img>
+                <ion-label>
+                  Esta mole de madera es ideal para cuando tu 
+                  personaje es un bruto y punto. Escala con fuerza, 
+                  y no tienes que saber mucho más... Bueno, que su 
+                  habilidad emite un estallido de energía que lanza 
+                  proyectiles dorados por todas partes.
+                </ion-label>
+                <ion-row>
+                  <ion-col>Fue: 35</ion-col>
+                  <ion-col>Fue: C</ion-col>
+                </ion-row>
+              </ion-content>
+            </ng-template>
+          </ion-modal>
+
+      </ion-item>
+      <ion-card-content>
+        Acaba con el Fiel de la hoja negra que 
+        custodia el Santuario de la Bestia en Caelid.
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+</ion-row>
+
+<ion-label>Otros Juegos</ion-label>
+<ion-grid>
+  <ion-row size="3">
+    <ion-col size="3">
+    <ion-list>
+      <ion-item>
+        <ion-label>Pokémon Espada y Escudo</ion-label>
+        <ion-button color="tertiary">Redirigir</ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Dark souls</ion-label>
+        <ion-button color="tertiary">Redirigir</ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>The Legend of Zelda BOTW</ion-label>
+        <ion-button color="tertiary">Redirigir</ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>DeltaRun</ion-label>
+        <ion-button color="tertiary">Redirigir</ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Super Mario Oddise</ion-label>
+        <ion-button color="tertiary">Redirigir</ion-button>
+      </ion-item>
+    </ion-list>
+  </ion-col>
+  <ion-col size="5">
+    <ion-img src="assets/icon/mario.jpg"></ion-img>
+  </ion-col>
+  <ion-col size="4">
+    <ion-list>
+      <ion-radio-group value="biff">
+        <ion-list-header>
+          <ion-label>Tier List</ion-label>
+        </ion-list-header>
+    
+        <ion-item>
+          <ion-label>Tier S</ion-label>
+          <ion-radio slot="start" value="biff"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>Tier A</ion-label>
+          <ion-radio slot="start" value="griff"></ion-radio>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label>Tier B</ion-label>
+          <ion-radio slot="start" value="buford"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
